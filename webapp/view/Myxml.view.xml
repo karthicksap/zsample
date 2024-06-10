@@ -1,0 +1,74 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:t="sap.ui.table"
+    xmlns:c="sap.ui.core"
+    xmlns:f="sap.ui.layout.form" controllerName="tit.mm.app.controller.Myxml">
+    <t:Table id="idTab" selectionMode="Single" visibleRowCount="4" rowSelectionChange="onChange">
+        <t:Column >
+            <Label text="{i18n>XFLD_EMPID}"/>
+            <t:template>
+                <Text text="{empId}" />
+            </t:template>
+        </t:Column>
+        <t:Column >
+            <Label text="{i18n>XFLD_EMPNAME}"/>
+            <t:template>
+                <Text text="{path: 'empName', formatter: '.oFormatter.convertName'}" />
+            </t:template>
+        </t:Column>
+        <t:Column >
+            <Label text="{i18n>XFLD_EMPGEN}"/>
+            <t:template>
+                <Image src="{empGen}" width="50px" />
+            </t:template>
+        </t:Column>
+        <t:Column >
+            <Label text="{i18n>XFLD_EMPSAL}"/>
+            <t:template>
+                <Text text="{parts: [{path: 'empSal'},{path: 'currency'}], formatter: '.oFormatter.convertSalary'}" />
+            </t:template>
+        </t:Column>
+        <t:Column >
+            <Label text="{i18n>XFLD_EMPCURR}"/>
+            <t:template>
+                <Text text="{currency}" />
+            </t:template>
+        </t:Column>
+        <t:Column >
+            <Label text="{i18n>XFLD_EMPSMOKE}"/>
+            <t:template>
+                <CheckBox selected="{smoker}" />
+            </t:template>
+        </t:Column>
+        <t:Column >
+            <Label text="{i18n>XFLD_EMPRATE}"/>
+            <t:template>
+                <RatingIndicator value="{rating}" />
+            </t:template>
+        </t:Column>
+        <t:Column>
+            <Label text="{i18n>XFLD_EMPMAR}"/>
+            <t:template>
+                <Select items="{/martialSts}" selectedKey="{Marital}">
+                    <c:Item key="{key}" text="{status}" />
+                </Select>
+            </t:template>
+        </t:Column>
+        <t:extension>
+            <Button icon="sap-icon://delete" press="onDelete" />
+        </t:extension>
+    </t:Table>
+    <f:SimpleForm id="idSimp" editable="true" layout="ResponsiveGridLayout" title="Employee detail" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false">
+        <f:content>
+            <Label text="Employee Id"/>
+            <Input width="100px" value="{empId}" id="idEmp" />
+            <Label text="Employee Name"/>
+            <Input width="250px" value="{empName}"/>
+            <Label text="Employee Salary"/>
+            <Input width="150px" value="{empSal} {currency}" id="idSal" />
+            <Button text="Print" press="onPress" />
+            <Button text="Disable" press="onDisable" />
+            <Button text="Filp model" press="onFlip" />
+        </f:content>
+    </f:SimpleForm>
+</mvc:View>

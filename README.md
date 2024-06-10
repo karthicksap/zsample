@@ -1,0 +1,1 @@
+This is our sample app with Fiori guideline

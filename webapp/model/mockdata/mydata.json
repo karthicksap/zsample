@@ -1,0 +1,93 @@
+{
+    "empStr": {
+        "empId": "E1776500",
+        "empName": "Kumar",
+        "empGen": "https://cdn3.iconfinder.com/data/icons/flat-classy-users-1/256/Male_SkinTone2_HairStyle2-512.png",
+        "empSal": 12000,
+        "currency": "USD",
+        "Marital": "K1",
+        "rating": 4
+    },
+    "empTab": [
+        {
+            "empId": "E1776411",
+            "empName": "Virat kohli",
+            "empGen": "https://cdn3.iconfinder.com/data/icons/flat-classy-users-1/256/Male_SkinTone2_HairStyle2-512.png",
+            "empSal": 10000,
+            "currency": "USD",
+            "smoker": true,
+            "Marital": "K1",
+            "rating": 4
+        },
+        {
+            "empId": "E1776412",
+            "empName": "Sachin",
+            "empGen": "https://cdn3.iconfinder.com/data/icons/flat-classy-users-1/256/Male_SkinTone2_HairStyle2-512.png",
+            "empSal": 9000,
+            "currency": "INR",
+            "smoker": true,
+            "Marital": "K2",
+            "rating": 3.5
+        },
+        {
+            "empId": "E1776413",
+            "empName": "Rohit Sharma",
+            "empGen": "https://cdn3.iconfinder.com/data/icons/flat-classy-users-1/256/Male_SkinTone2_HairStyle2-512.png",
+            "empSal": 8900,
+            "currency": "USD",
+            "smoker": false,
+            "Marital": "K1",
+            "rating": 4.5
+        },
+        {
+            "empId": "E1776414",
+            "empName": "Mandhana",
+            "empGen": "https://www.bing.com/th/id/OIP.lhbuz_41guqnfvx5HxzGIAHaHa?w=208&h=208&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "empSal": 1200,
+            "currency": "INR",
+            "smoker": true,
+            "Marital": "K1",
+            "rating": 2.4
+        },
+        {
+            "empId": "E1776415",
+            "empName": "Mithali",
+            "empGen": "https://www.bing.com/th/id/OIP.lhbuz_41guqnfvx5HxzGIAHaHa?w=208&h=208&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "empSal": 15000,
+            "currency": "USD",
+            "smoker": false,
+            "Marital": "K2",
+            "rating": 4
+        },
+        {
+            "empId": "E1776416",
+            "empName": "Poorni",
+            "empGen": "https://www.bing.com/th/id/OIP.lhbuz_41guqnfvx5HxzGIAHaHa?w=208&h=208&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "empSal": 9900,
+            "currency": "USD",
+            "smoker": true,
+            "Marital": "K2",
+            "rating": 3
+        },
+        {
+            "empId": "E1776417",
+            "empName": "Aswin",
+            "empGen": "https://cdn3.iconfinder.com/data/icons/flat-classy-users-1/256/Male_SkinTone2_HairStyle2-512.png",
+            "empSal": 12000,
+            "currency": "INR",
+            "smoker": false,
+            "Marital": "K2",
+            "rating": 4.1
+        }
+    ],
+    "martialSts": [
+        {
+            "key": "K1",
+            "status": "Married"
+        },
+        {
+            "key": "K2",
+            "status": "Single"
+        }
+    ]
+}

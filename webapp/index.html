@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script id="sap-ui-bootstrap" type="text/javascript" src="https://ui5.sap.com/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_horizon" data-sap-ui-libs="sap.m" data-sap-ui-bindingSyntax="complex"
+        data-sap-ui-resourceroots='{
+        "tit.mm.app": "./"
+    }'></script>
+    <script>
+        var oView = new sap.ui.view({
+            viewName: "tit.mm.app.view.Main",
+            type: "JS"
+        })
+        var oXml = new sap.ui.view({
+            viewName: "tit.mm.app.view.Myxml",
+            type: "XML"
+        });
+        oXml.placeAt("idBody");
+        oView.placeAt("idBody");
+    </script>
+</head>
+
+<body id="idBody">
+
+</body>
+
+</html>

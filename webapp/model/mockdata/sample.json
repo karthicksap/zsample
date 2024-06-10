@@ -1,0 +1,61 @@
+{
+    "empStr": {
+        "empId": "A1776500",
+        "empName": "Kumar",
+        "empGen": "Male",
+        "empSal": 12000,
+        "currency": "USD",
+        "enabled": true
+    },
+    "empTab": [
+        {
+            "empId": "A1776411",
+            "empName": "Virat kohli",
+            "empGen": "Male",
+            "empSal": 10000,
+            "currency": "USD"
+        },
+        {
+            "empId": "A1776412",
+            "empName": "Sachin",
+            "empGen": "Male",
+            "empSal": 9000,
+            "currency": "INR"
+        },
+        {
+            "empId": "A1776413",
+            "empName": "Rohit Sharma",
+            "empGen": "Male",
+            "empSal": 8900,
+            "currency": "USD"
+        },
+        {
+            "empId": "A1776414",
+            "empName": "Mandhana",
+            "empGen": "Female",
+            "empSal": 1200,
+            "currency": "INR"
+        },
+        {
+            "empId": "A1776415",
+            "empName": "Mithali",
+            "empGen": "Female",
+            "empSal": 15000,
+            "currency": "USD"
+        },
+        {
+            "empId": "A1776416",
+            "empName": "Poorni",
+            "empGen": "Female",
+            "empSal": 9900,
+            "currency": "USD"
+        },
+        {
+            "empId": "A1776417",
+            "empName": "Aswin",
+            "empGen": "Male",
+            "empSal": 12000,
+            "currency": "INR"
+        }
+    ]
+}
