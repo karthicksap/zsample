@@ -60,7 +60,7 @@
     </t:Table>
     <f:SimpleForm id="idSimp" editable="true" layout="ResponsiveGridLayout" title="Employee detail" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false">
         <f:content>
-            <Label text="Employee ID"/>
+            <Label text="Employee Id"/>
             <Input width="100px" value="{empId}" id="idEmp" />
             <Label text="Employee Name"/>
             <Input width="250px" value="{empName}"/>
